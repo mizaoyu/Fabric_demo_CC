@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.enrollTitle{
+    margin:15px;
+    font-size:28px;
+    font-weight:600;
+}
+
+.enrollForm{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+
+.enrollForm label{
+    margin:8px;
+}
+
+.enrollForm label span{
+    width:120px;
+    margin-right:10px;
+}
+
+.rodal-message{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

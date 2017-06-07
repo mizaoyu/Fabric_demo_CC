@@ -1,0 +1,87 @@
+.Menu-wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.side-bar{
+    height: 100vh;
+    width: 230px;
+    background-color: #052b42;
+}
+
+.sidebar-title{
+    width: 100%;
+    max-width:230px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-left: 25px;
+    color: lightgoldenrodyellow;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.sidebar-content{
+    width: clac(100% - 25px);
+    max-width:230px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding-left: 25px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.sidebar-content:hover{
+    background-color: darkcyan;
+}
+
+.sidebar-info{
+    width: clac(100% - 25px);
+    max-width:230px;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    color: white;
+    word-wrap: break-word;
+    word-break:break-all;
+}
+
+.right-panel{
+    width: calc(100% - 260px);
+    height: 100vh;
+    padding:0px 30px;
+}
+
+.right-panel-head{
+   height:80px;
+   display:flex;
+   align-items:center;
+   border-bottom: 1px dotted lightgrey;
+
+}
+
+.CCh-form{
+    margin: 30px 1px;
+}
+
+.CCh-form input{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.CCh-form fieldset{
+    margin-bottom:20px;
+}
+
+.form-ques{
+    margin-bottom:20px;
+}
+
+fieldset .form-ques{
+    margin-top:10px;
+    margin-bottom:10px;
+}
