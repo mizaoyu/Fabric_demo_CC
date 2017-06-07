@@ -7,20 +7,20 @@ import * as common from './common.js';
 export class CreateChannel extends Component {
   constructor(props) {
       super(props);
-      this.state = {channelName: ''};
+      this.state = {channelConfigPath: ''};
 
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange(event) {
-      this.setState({channelName: event.target.value});
+      this.setState({channelConfigPath: event.target.value});
   }
 
   handleSubmit(event) {
       var data = {
-         channelName:this.state.channelName,
-         channelConfigPath:"../artifacts/channel/mychannel.tx"
+         channelName:"mychannel",
+         channelConfigPath:this.state.channelConfigPath
       };
 
       var token = localStorage.getItem('token');
@@ -41,7 +41,7 @@ export class CreateChannel extends Component {
         if (!data.success){
             alert(data.message);
         }else{
-            alert("Create Channel " + this.state.channelName + " successfully!");
+            alert("Create Channel mychannel successfully!");
             window.location = "/menu/joinCh";
         }
       }).catch(function(error) {
@@ -60,8 +60,8 @@ export class CreateChannel extends Component {
       </div>
       <form className="CCh-form" onSubmit={this.handleSubmit}>
           <label>
-            <span>Channel Name:</span>
-            <input type="text" name="channelName" value={this.state.channelName} onChange={this.handleChange}/>
+            <span>Channel Config File Path:</span>
+            <input type="text" name="channelConfigPath" value={this.state.channelConfigPath} onChange={this.handleChange}/>
           </label>
           <input type="submit" value="Submit" />
       </form>
@@ -69,4 +69,3 @@ export class CreateChannel extends Component {
     );
   }
 }
-

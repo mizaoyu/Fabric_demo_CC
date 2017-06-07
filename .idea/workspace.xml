@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd2c399-d6d7-40c4-b35f-f4cf14f520e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/firefox_root/.parentlock" afterPath="$PROJECT_DIR$/demoUI/my-app/firefox_root/.parentlock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/public/favicon.ico" afterPath="$PROJECT_DIR$/demoUI/my-app/public/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/channel-artifacts/.gitkeep" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/channel-artifacts/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sdk-node" afterPath="$PROJECT_DIR$/fabric-sdk-node" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marbles.v3" afterPath="$PROJECT_DIR$/marbles.v3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/github.com/hyperledger/fabric-ca" afterPath="$PROJECT_DIR$/src/github.com/hyperledger/fabric-ca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HyperLedger2.iml" afterPath="$PROJECT_DIR$/.idea/HyperLedger2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/.idea/demoUI.iml" afterPath="$PROJECT_DIR$/demoUI/.idea/demoUI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/.idea/misc.xml" afterPath="$PROJECT_DIR$/demoUI/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/.idea/modules.xml" afterPath="$PROJECT_DIR$/demoUI/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/demoUI/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/.gitignore" afterPath="$PROJECT_DIR$/demoUI/my-app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/README.md" afterPath="$PROJECT_DIR$/demoUI/my-app/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/package.json" afterPath="$PROJECT_DIR$/demoUI/my-app/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/public/index.html" afterPath="$PROJECT_DIR$/demoUI/my-app/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/public/manifest.json" afterPath="$PROJECT_DIR$/demoUI/my-app/public/manifest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/InstallChaincode.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/InstallChaincode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/JoinChannel.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/JoinChannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/Menu.css" afterPath="$PROJECT_DIR$/demoUI/my-app/src/Menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/Menu.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/Menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/common.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/enroll.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/enroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/chaincode/go/chaincode_example02/chaincode_example02.go" afterPath="$PROJECT_DIR$/fabric-sample/release/chaincode/go/chaincode_example02/chaincode_example02.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/chaincode/go/marbles02/marbles_chaincode.go" afterPath="$PROJECT_DIR$/fabric-sample/release/chaincode/go/marbles02/marbles_chaincode.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/base/docker-compose-base.yaml" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/base/docker-compose-base.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/base/peer-base.yaml" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/base/peer-base.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/configtx.yaml" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/configtx.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/crypto-config.yaml" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/crypto-config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/docker-compose-cli.yaml" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/docker-compose-cli.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/docker-compose-couch.yaml" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/docker-compose-couch.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/docker-compose-e2e-template.yaml" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/docker-compose-e2e-template.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/docker-compose-e2e.yaml" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/docker-compose-e2e.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/download-dockerimages.sh" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/download-dockerimages.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/end-to-end.rst" afterPath="$PROJECT_DIR$/fabric-sample/release/linux-amd64/end-to-end.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js" afterPath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,27 +29,27 @@
         <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="168" column="42" lean-forward="true" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+              <caret line="168" column="42" lean-forward="false" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chain.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Chain.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Chain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="1993" column="0" lean-forward="true" selection-start-line="1993" selection-start-column="0" selection-end-line="1993" selection-end-column="0" />
+            <state relative-caret-position="583">
+              <caret line="1571" column="56" lean-forward="false" selection-start-line="1571" selection-start-column="56" selection-end-line="1571" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="join-channel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="join-channel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+            <state relative-caret-position="328">
+              <caret line="70" column="81" lean-forward="true" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -95,8 +58,8 @@
       <file leaf-file-name="CreateChannel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="216">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -106,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/instantiate-chaincode.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1046">
-              <caret line="113" column="52" lean-forward="true" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+              <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -144,8 +107,8 @@
       <find>chaincodeList</find>
       <find>ccDA</find>
       <find>sendInst</find>
-      <find>chain</find>
       <find>_sendPeersProposal</find>
+      <find>chain</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/fa</dir>
@@ -170,12 +133,12 @@
         <option value="$PROJECT_DIR$/demoUI/my-app/src/Menu.js" />
         <option value="$PROJECT_DIR$/demoUI/my-app/src/Menu.css" />
         <option value="$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js" />
-        <option value="$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/instantiate-chaincode.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/create-channel.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/helper.js" />
         <option value="$PROJECT_DIR$/demoUI/my-app/src/InvokeCC.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Chain.js" />
+        <option value="$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js" />
       </list>
     </option>
@@ -590,6 +553,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="48" width="1295" height="863" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -605,7 +569,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22779922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22779922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -957,7 +921,7 @@
     <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="168" column="42" lean-forward="true" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+          <caret line="168" column="42" lean-forward="false" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -965,31 +929,31 @@
     <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/instantiate-chaincode.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1046">
-          <caret line="113" column="52" lean-forward="true" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+          <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Chain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1993" column="0" lean-forward="true" selection-start-line="1993" selection-start-column="0" selection-end-line="1993" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+        <state relative-caret-position="328">
+          <caret line="70" column="81" lean-forward="true" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Chain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="1571" column="56" lean-forward="false" selection-start-line="1571" selection-start-column="56" selection-end-line="1571" selection-end-column="56" />
           <folding />
         </state>
       </provider>

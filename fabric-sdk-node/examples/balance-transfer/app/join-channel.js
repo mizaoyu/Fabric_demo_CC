@@ -62,27 +62,29 @@ var joinChannel = function(channelName, peers, username, org) {
 	logger.info("%s",channelName);
 	logger.info("%s",peers);
 	logger.info("%s",username);
-	for (let key in ORGS[org]) {
-		if (ORGS[org].hasOwnProperty(key)) {
-			if (key.indexOf('peer') === 0) {
-			    logger.info("%s",ORGS[org][key]['requests']);
-			    logger.info("%s","grpcs://"+peers);
-			    if (ORGS[org][key]['requests'] == "grpcs://"+peers){
-			        logger.info("true");
-                    let data = fs.readFileSync(path.join(__dirname, ORGS[org][key][
-                        'tls_cacerts'
-                    ]));
-                    let eh = new EventHub();
-                    eh.setPeerAddr(ORGS[org][key].events, {
-                        pem: Buffer.from(data).toString(),
-                        'ssl-target-name-override': ORGS[org][key]['server-hostname']
-                    });
-                    eh.connect();
-                    eventhubs.push(eh);
-                    allEventhubs.push(eh);
-			    }
-			}
-		}
+	for (let peerIdx in peers){
+        for (let key in ORGS[org]) {
+            if (ORGS[org].hasOwnProperty(key)) {
+                if (key.indexOf('peer') === 0) {
+                    logger.info("%s",ORGS[org][key]['requests']);
+                    logger.info("%s","grpcs://"+peers);
+                    if (ORGS[org][key]['requests'] == "grpcs://"+peers[peerIdx]){
+                        logger.info("true");
+                        let data = fs.readFileSync(path.join(__dirname, ORGS[org][key][
+                            'tls_cacerts'
+                        ]));
+                        let eh = new EventHub();
+                        eh.setPeerAddr(ORGS[org][key].events, {
+                            pem: Buffer.from(data).toString(),
+                            'ssl-target-name-override': ORGS[org][key]['server-hostname']
+                        });
+                        eh.connect();
+                        eventhubs.push(eh);
+                        allEventhubs.push(eh);
+                    }
+                }
+            }
+        }
 	}
 	return helper.getRegisteredUsers(username, org).then((member) => {
 		logger.info('received member object for user : ' + username);
