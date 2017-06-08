@@ -36,6 +36,7 @@ This sub-project provides the backend of the demo. Detailed explanation of each 
   * **tls/**: contains certificates of all peers, the orderering node and CA containers to verify the TLS handshake. 
 * **app/**: contain JS files for specific functions to interact with the Node SDK APIs and a network config JSON file to config the involvers and their addresses. `helper.js` includes some common functions used by other JS funtions. Other js files are self-explanatory by their name, each support for one specific function.
 
-
+### Author
+Author: Misky Shi
 
 
