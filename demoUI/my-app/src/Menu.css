@@ -54,6 +54,7 @@
     width: calc(100% - 260px);
     height: 100vh;
     padding:0px 30px;
+    overflow-y: auto;
 }
 
 .right-panel-head{
@@ -84,4 +85,13 @@
 fieldset .form-ques{
     margin-top:10px;
     margin-bottom:10px;
+}
+
+.queryResult{
+    margin-top:20px;
+    margin-left:10px;
+    overflow-y: auto;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
 }

@@ -37,6 +37,8 @@ var host = process.env.HOST || config.host;
 var port = process.env.PORT || config.port;
 var channelList = {};
 var chaincodeList = {};
+var entityNames = ["",""];
+var tIdList = [];
 ///////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// SET CONFIGURATONS ////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
@@ -75,27 +77,21 @@ function getErrorMessage(field) {
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////// REST ENDPOINTS START HERE ///////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
-//add channel
-/*app.post('/addchannel', function(req, res) {
-	var username = req.body.username;
-    var channelName = req.body.channelName;
-    if (!username) {
-        res.json(getErrorMessage('\'username\''));
-        return;
-    }
-    if (!channelName) {
-        res.json(getErrorMessage('\'channelName\''));
-        return;
-    }
-    if (channelList[username] == null){
-        channelList[username] = [];
-    }
-    channelList[username].push(channelName);
+//get transaction Ids
+app.get('/tIds', function(req, res) {
     res.json({
         success: true,
-        message: JSON.stringify(channelList[username])
+        message: JSON.stringify(tIdList)
     });
-});*/
+});
+
+//get entity names
+app.get('/getEntitys', function(req, res) {
+    res.json({
+        success: true,
+        message: JSON.stringify(entityNames)
+    });
+});
 
 //get chaincode
 app.get('/getChaincode', function(req, res) {
@@ -355,6 +351,8 @@ app.post('/channels/:channelName/chaincodes', function(req, res) {
 			instantiate.instantiateChaincode(peers, channelName, chaincodeName, chaincodePath,
 				chaincodeVersion, functionName, args, decoded.username, decoded.orgName)
 			.then(function(message) {
+	            entityNames[0] = args[0];
+	            entityNames[1] = args[2];
 				res.send(message);
 			});
 		}
@@ -408,6 +406,7 @@ app.post('/channels/:channelName/chaincodes/:chaincodeName', function(req, res) 
 			let promise = invoke.invokeChaincode(peers, channelName, chaincodeName,
 				chaincodeVersion, args, decoded.username, decoded.orgName);
 			promise.then(function(message) {
+			    tIdList.push(message);
 				res.send(message);
 			});
 		}

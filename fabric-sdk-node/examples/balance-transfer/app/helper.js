@@ -287,6 +287,9 @@ var getArgs = function(chaincodeArgs) {
 };
 var getPeerAddressByName = function(org, peer) {
 	var peerList = [];
+	logger.info("%s",org);
+	logger.info("%s",peer);
+	logger.info("%j",ORGS[org]);
 	var address = ORGS[org][peer].requests;
 	return address.split('grpcs://')[1];
 };

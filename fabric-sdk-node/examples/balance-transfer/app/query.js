@@ -53,12 +53,11 @@ var queryChaincode = function(peer, channelName, chaincodeName,
 		return 'Failed to get submitter \''+username+'\'. Error: ' + err.stack ? err.stack :
 			err;
 	}).then((response_payloads) => {
+	    logger.info("%j",response_payloads);
 		if (response_payloads) {
 			for (let i = 0; i < response_payloads.length; i++) {
-				logger.info('User b now has ' + response_payloads[i].toString('utf8') +
-					' after the move');
-				return 'User b now has ' + response_payloads[i].toString('utf8') +
-					' after the move';
+				logger.info('User '+ args[1] +' now has ' + response_payloads[i].toString('utf8'));
+				return 'User '+ args[1] +' now has ' + response_payloads[i].toString('utf8');
 			}
 		} else {
 			logger.error('response_payloads is null');

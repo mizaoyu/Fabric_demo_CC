@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd2c399-d6d7-40c4-b35f-f4cf14f520e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js" afterPath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoUI/my-app/src/QueryBlock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoUI/my-app/src/QueryCC.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demoUI/my-app/src/QueryTrans.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/Menu.css" afterPath="$PROJECT_DIR$/demoUI/my-app/src/Menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/Menu.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/Menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoUI/my-app/src/common.js" afterPath="$PROJECT_DIR$/demoUI/my-app/src/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app.js" afterPath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/helper.js" afterPath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/helper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/query.js" afterPath="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/query.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,58 +26,80 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="282" column="36" lean-forward="false" selection-start-line="282" selection-start-column="23" selection-end-line="282" selection-end-column="36" />
+            <state relative-caret-position="372">
+              <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstantiateCC.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js">
+      <file leaf-file-name="query.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="168" column="42" lean-forward="false" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+            <state relative-caret-position="-785">
+              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chain.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Chain.js">
+      <file leaf-file-name="InvokeCC.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/InvokeCC.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="1571" column="56" lean-forward="false" selection-start-line="1571" selection-start-column="56" selection-end-line="1571" selection-end-column="56" />
+            <state relative-caret-position="367">
+              <caret line="260" column="18" lean-forward="true" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#9645#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invoke-transaction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/invoke-transaction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="954">
+              <caret line="137" column="41" lean-forward="false" selection-start-line="137" selection-start-column="41" selection-end-line="137" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="join-channel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js">
+      <file leaf-file-name="QueryBlock.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/QueryBlock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="70" column="81" lean-forward="true" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="81" />
+            <state relative-caret-position="504">
+              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateChannel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js">
+      <file leaf-file-name="Menu.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/Menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="126">
+              <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instantiate-chaincode.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/instantiate-chaincode.js">
+      <file leaf-file-name="QueryTrans.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/QueryTrans.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1046">
-              <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+            <state relative-caret-position="331">
+              <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/Menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -79,15 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>new</find>
-      <find>chain1</find>
-      <find>var chain1 = null;</find>
-      <find>sendDeliver</find>
-      <find>config</find>
-      <find>orderer</find>
-      <find>getOrderers</find>
-      <find>_orderers</find>
-      <find>.addOrderer</find>
       <find>getOrderer</find>
       <find>addOrderer</find>
       <find>_name</find>
@@ -104,11 +125,20 @@
       <find>eventPromises</find>
       <find>instanti</find>
       <find>setupOrderer</find>
+      <find>sendInst</find>
       <find>chaincodeList</find>
       <find>ccDA</find>
-      <find>sendInst</find>
       <find>_sendPeersProposal</find>
+      <find>getPeerAddressByName</find>
       <find>chain</find>
+      <find>queryC</find>
+      <find>queryChaincode</find>
+      <find>getArgs</find>
+      <find>blocks</find>
+      <find>checkedCC</find>
+      <find>invoke</find>
+      <find>handleRadioChange</find>
+      <find>args</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/fa</dir>
@@ -129,25 +159,30 @@
       <list>
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/grpc/src/node/src/client.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/install-chaincode.js" />
-        <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app.js" />
-        <option value="$PROJECT_DIR$/demoUI/my-app/src/Menu.js" />
-        <option value="$PROJECT_DIR$/demoUI/my-app/src/Menu.css" />
         <option value="$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/instantiate-chaincode.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/create-channel.js" />
-        <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/helper.js" />
-        <option value="$PROJECT_DIR$/demoUI/my-app/src/InvokeCC.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Chain.js" />
         <option value="$PROJECT_DIR$/demoUI/my-app/src/CreateChannel.js" />
         <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js" />
+        <option value="$PROJECT_DIR$/demoUI/my-app/src/Menu.js" />
+        <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/helper.js" />
+        <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/query.js" />
+        <option value="$PROJECT_DIR$/demoUI/my-app/src/common.js" />
+        <option value="$PROJECT_DIR$/demoUI/my-app/src/QueryCC.js" />
+        <option value="$PROJECT_DIR$/demoUI/my-app/src/Menu.css" />
+        <option value="$PROJECT_DIR$/demoUI/my-app/src/QueryBlock.js" />
+        <option value="$PROJECT_DIR$/demoUI/my-app/src/InvokeCC.js" />
+        <option value="$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app.js" />
+        <option value="$PROJECT_DIR$/demoUI/my-app/src/QueryTrans.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="48" />
-    <option name="width" value="1295" />
-    <option name="height" value="863" />
+    <option name="x" value="542" />
+    <option name="y" value="72" />
+    <option name="width" value="1289" />
+    <option name="height" value="862" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -552,31 +587,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="48" width="1295" height="863" extended-state="0" />
+    <frame x="542" y="72" width="1289" height="862" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22779922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22885959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -592,22 +627,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Chain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29844">
-          <caret line="1658" column="41" lean-forward="false" selection-start-line="1658" selection-start-column="41" selection-end-line="1658" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Peer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -730,20 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/Menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fabric-sdk-node/node_modules/grpc/src/node/src/client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2790">
@@ -810,14 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -894,38 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-803">
-          <caret line="75" column="36" lean-forward="true" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/InvokeCC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="129" column="86" lean-forward="false" selection-start-line="129" selection-start-column="86" selection-end-line="129" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="282" column="36" lean-forward="false" selection-start-line="282" selection-start-column="23" selection-end-line="282" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="168" column="42" lean-forward="false" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/instantiate-chaincode.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1046">
@@ -942,6 +907,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/InstantiateCC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Chain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="1552" column="32" lean-forward="false" selection-start-line="1552" selection-start-column="32" selection-end-line="1552" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/join-channel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -950,10 +931,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/node_modules/fabric-client/lib/Chain.js">
+    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/enroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="1571" column="56" lean-forward="false" selection-start-line="1571" selection-start-column="56" selection-end-line="1571" selection-end-column="56" />
+        <state relative-caret-position="270">
+          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="280" column="11" lean-forward="false" selection-start-line="280" selection-start-column="4" selection-end-line="280" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/QueryBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/Menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/QueryCC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="239" column="5" lean-forward="true" selection-start-line="233" selection-start-column="4" selection-end-line="239" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#9340#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/InvokeCC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="260" column="18" lean-forward="true" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9645#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-785">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabric-sdk-node/examples/balance-transfer/app/invoke-transaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="137" column="41" lean-forward="false" selection-start-line="137" selection-start-column="41" selection-end-line="137" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoUI/my-app/src/QueryTrans.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
           <folding />
         </state>
       </provider>

@@ -9,6 +9,10 @@ import {CreateChannel} from './CreateChannel';
 import {JoinChannel} from './JoinChannel';
 import {InstallChaincode} from './InstallChaincode';
 import {InstantiateCC} from './InstantiateCC';
+import {InvokeCC} from './InvokeCC';
+import {QueryCC} from './QueryCC';
+import {QueryBlock} from './QueryBlock';
+import {QueryTrans} from './QueryTrans';
 
 class Menu extends Component {
   render() {
@@ -36,6 +40,10 @@ class Menu extends Component {
             <Route path="/menu/joinCh" component={JoinChannel}/>
             <Route path="/menu/installCC" component={InstallChaincode}/>
             <Route path="/menu/instantiateCC" component={InstantiateCC}/>
+            <Route path="/menu/invokeCC" component={InvokeCC}/>
+            <Route path="/menu/queryCC" component={QueryCC}/>
+            <Route path="/menu/queryBlock" component={QueryBlock}/>
+            <Route path="/menu/queryTrans" component={QueryTrans}/>
         </div>
       </div>
 
