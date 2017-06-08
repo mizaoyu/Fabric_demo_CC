@@ -1,4 +1,4 @@
 **/.idea
-./marbles.v3/
-./fabric-sample/
-./src/
+/marbles.v3/**
+/fabric-sample/**
+/src/**

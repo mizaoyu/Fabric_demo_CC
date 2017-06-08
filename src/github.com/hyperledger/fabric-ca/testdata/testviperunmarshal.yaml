@@ -1,6 +1,0 @@
-ca:
-  name: test
-
-db:
-  tls:
-      enabled: false
