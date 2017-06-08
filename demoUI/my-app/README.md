@@ -48,5 +48,6 @@ For other JS files, they each indicate a component or provide some functions.
 
 Some JS files might have imported `css` file in its header. This is where the style is defined for this component.
 
-
+### Author
+Author: Misky Shi
 
