@@ -3,3 +3,5 @@
 /fabric-sample/**
 /src/**
 /fabric-sdk-node/**
+/demoUI/my-app/firefox_root/**
+/demoUI/my-app/node_modules/**

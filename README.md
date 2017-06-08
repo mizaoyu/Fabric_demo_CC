@@ -59,6 +59,7 @@ I am using a Linux VM. (Recommand Linux System, otherwise you might met lots of 
 
 * Open another terminal. `cd` into the `demoUI/my-app` folder. Run
     
+      npm install
       npm start
 * Open the browser, go to `http:localhost:3000/login`. You should see the web page.
 
