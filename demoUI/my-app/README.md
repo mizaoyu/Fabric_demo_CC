@@ -19,6 +19,7 @@ my-app/
     index.css
     index.js
     logo.svg
+    ...
 ```
 
 For the project to build, **these files must exist with exact filenames**:
@@ -40,7 +41,12 @@ For other JS files, they each indicate a component or provide some functions.
 * enroll.js - the login module, children of App.js 
 * registerServiceWorker.js - lets the app load faster on subsequent visits in production, don't need to modify.
 
+
 * .... The rest .js files are self-explanatory by their name. They are all children of Menu.js, each for a function. Such as
 * CreateChannel.js - create channel module, children of Menu.js
 * InstallChaincode.js - install chaincode module, children of Menu.js ...
+
+Some JS files might have imported `css` file in its header. This is where the style is defined for this component.
+
+
 
