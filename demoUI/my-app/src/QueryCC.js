@@ -130,8 +130,8 @@ export class QueryCC extends Component {
             else peer = "peer2";
             break;
         case "org2":
-            if (this.state.checkedPeer[0] == "localhost:8051") peer = "peer3";
-            else peer = "peer4";
+            if (this.state.checkedPeer[0] == "localhost:8051") peer = "peer1";
+            else peer = "peer2";
             break;
       }
       console.log(peer);
